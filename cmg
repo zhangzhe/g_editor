@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+def exe_cmd(cmd)
+  puts cmd
+  system cmd
+end
+
+cmd = "git add ."
+exe_cmd cmd
+
+args = ARGV.join(' ')
+cmd = "git commit . -m '#{ARGV[0]}'"
+exe_cmd cmd
+
+cmd = "git push github master"
+exe_cmd cmd
+

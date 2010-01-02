@@ -1,0 +1,17 @@
+<form>
+  <textarea id="fancypants">
+%{color:green}Heroku% %{color:blue}provides% %{color:red}each% app with a full-featured PostgreSQL database. For Rails apps, database connectivity is configured automatically — your app should just work. For app’s that use the DataMapper or Sequel ORMs, the DATABASE\_URL environment variable contains database connection details.
+
+* There 
+* are 
+* multiple 
+* database
+
+"packages":http://heroku.com/ to choose from, and you can change plans at any time. 
+*The* _Blossom_, +Koi+, and Crane plans are hosted +within Heroku+’s shared database cluster, while the Ronin, Fugu, and Zilla plans are hosted on a high-performance machine dedicated to your app. Database redundancy and failover is fully managed by Heroku’s infrastructure regardless of plan. Upgrading from the shared tier to the dedicated tier is seamless and managed by Heroku as well.
+  </textarea>
+</form>
+
+<script src="prototype.js" type="text/javascript"></script>
+<script src="g_editor.js" type="text/javascript"></script>
+<link href="g_editor.css" media="screen" rel="stylesheet" type="text/css" />
