@@ -12,6 +12,6 @@ args = ARGV.join(' ')
 cmd = "git commit . -m '#{ARGV[0]}'"
 exe_cmd cmd
 
-cmd = "git push github master"
+cmd = "git push origin master"
 exe_cmd cmd
 
