@@ -1,0 +1,71 @@
+.jstElements button {
+	margin-right : 6px;
+	margin-bottom : 6px;
+	width : 24px;
+	height: 24px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	background-position : 50% 50%;
+	background-repeat: no-repeat;
+}
+.jstElements button:hover {
+	border-color : #000;
+}
+.jstElements button span {
+	display : none;	
+}
+.jstElements span {
+	display : inline;
+}
+
+.jstb_strong {
+	background-image: url(../images/bt_strong.png);
+}
+.jstb_em {
+	background-image: url(../images/bt_em.png);
+}
+.jstb_ins {
+	background-image: url(../images/bt_ins.png);
+}
+
+.jstb_h {
+	background-image: url(../images/bt_h1.png);
+}
+
+.jstb_purple {
+	background-color:#B404AE;
+	padding:2px;
+	marggin:20px;
+}
+.jstb_red {
+	background-color:#FF0000;
+	padding:2px;
+	marggin:20px;
+}
+
+.jstb_blue {
+	background-color:#0000FF;
+	padding:2px;
+	marggin:20px;
+}
+
+.jstb_green {
+	background-color:#01DF01;
+	padding:2px;
+	marggin:20px;
+}
+.jstb_ul {
+	background-image: url(../images/bt_ul.png);
+}
+
+.jstb_code {
+	background-image: url(../images/bt_code.png);
+}
+.jstb_link {
+	background-image: url(../images/bt_link.png);
+}
+.jstb_img {
+	background-image: url(../images/bt_img.png);
+}
