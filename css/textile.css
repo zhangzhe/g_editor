@@ -60,8 +60,11 @@
 	background-image: url(../images/bt_ul.png);
 }
 
-.jstb_code {
-	background-image: url(../images/bt_code.png);
+.jstb_rails_code {
+	background-image: url(../images/bt_rails_code.png);
+}
+.jstb_other_code {
+	background-image: url(../images/bt_other_code.png);
 }
 .jstb_link {
 	background-image: url(../images/bt_link.png);

@@ -306,7 +306,7 @@ jsToolBar.prototype.elements.h = {
 	type: 'button',
 	title: 'Heading',
 	fn: {
-	    wiki: function() { this.singleTag('[h]', '[/h]') }
+	    wiki: function() { this.singleTag('<h>', '</h>') }
 	}	
     }
 
@@ -323,14 +323,21 @@ jsToolBar.prototype.elements.ul = {
 	}
 }
 
-jsToolBar.prototype.elements.code = {
+jsToolBar.prototype.elements.rails_code = {
 	type: 'button',
-	title: 'code',
+	title: 'rails_code',
 	fn: {
 		wiki: function() { this.singleTag('[code:ruby]\n', '\n[/code]') }
 	}
 }
 
+jsToolBar.prototype.elements.other_code = {
+	type: 'button',
+	title: 'other_code',
+	fn: {
+		wiki: function() { this.singleTag('[code:lisp]\n', '\n[/code]') }
+	}
+}
 
 jsToolBar.prototype.elements.link = {
 	type: 'button',
